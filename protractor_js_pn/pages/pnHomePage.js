@@ -25,5 +25,5 @@ var PnHomePage = function() {
     };	
 };
 
-PnHomePage.prototype = basePage; // extend basePage...
+PnHomePage.prototype = basePage;
 module.exports = new PnHomePage();
