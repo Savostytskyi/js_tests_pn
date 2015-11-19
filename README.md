@@ -3,7 +3,7 @@
 * Install [node.js](http://nodejs.org)
 * `git clone https://github.com/qualityshepherd/protractor_example`
 * `npm install` to install the project dependancies
-* `node_modules/.bin/webdriver_manager update` to update drivers
+* add selenium server and chrome driver to: \js_tests_pn\protractor_js_pn\node_modules\protractor\selenium
 
 ## Run tests:
 * `node_modules/.bin/protractor conf.js`
