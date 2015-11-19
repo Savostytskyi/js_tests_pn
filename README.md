@@ -1,4 +1,4 @@
-# js_tests_pn
+# JavaScript tests for pn.com.ua (filters)
 ## Setup:
 * Install [Node](http://nodejs.org)
 * `git clone https://github.com/qualityshepherd/protractor_example`
