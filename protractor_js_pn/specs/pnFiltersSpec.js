@@ -29,8 +29,6 @@ describe('Pn.com filters testing', function() {
 		pnGoodsPage.checkManufacturer(this.manufacturer);
 		var r = pnGoodsPage.getTotalCount();
 		expect(makeCount).toContain(pnGoodsPage.getTotalCount());
-		//expect(makeCount.contains(pnGoodsPage.getTotalCount())).toBeTruthy();		
-		//expect(pnGoodsPage.getTotalCount()).toBe(pnGoodsPage.countBefore);
 	}); 
 	
 	it('it should contain correct search results', function() {
